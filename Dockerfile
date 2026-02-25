@@ -1,4 +1,4 @@
-FROM docker.io/vikunja/vikunja:1.1.0
+FROM docker.io/vikunja/vikunja:2.0.0
 
 # TODO Procfile apparently doesn't need to be copied. Does app.json?
 COPY app.json .
